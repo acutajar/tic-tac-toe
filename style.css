@@ -8,6 +8,7 @@ h1 {
     min-height: 55px;
     margin: 0;
     margin-bottom: 50px;
+    min-width: 400px;
 }
 
 
@@ -17,9 +18,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 400px;
 }
 #game-container {
-    margin-top: 40vmin;
     display: grid;
     width: 400px;
     height: 400px;
@@ -38,8 +39,19 @@ body {
     
 }
 
-#info-container {
-    margin-top: 40px;
+#game-info {
+    margin-top: 40vmin;
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    border-radius:5%;
+    background-color: #9eb6eb;
+    border: 5;
+    margin:16px;
     font-size: 25px;
-    
+    font-weight:545;
+    width: 10rem;
 }
